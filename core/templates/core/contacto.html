@@ -1,4 +1,12 @@
-<h1>Contacto</h1>
-<ul>
-    <li><a href="/">Home</a></li>
-</ul>
+{% extends 'core/base.html' %}
+
+{% block background %}{% load static %}{% static 'core/img/contact-bg.jpg'%}{% endblock background %}
+
+{% block header %}
+    <h1>Contacto</h1>
+    <span class="subheading">Datos lalalalalalala</span>
+{% endblock header %}
+
+{% block content %}
+    <p>Me encuentran en mi casita de campo <3</p>
+{% endblock content %}
